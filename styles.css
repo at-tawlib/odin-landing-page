@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #1F2937;
+}
+
+.header, .main-content {
+    padding: 50px;
+}
+
+.header h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    display: flex;
+    margin-bottom: 20px;
+}
+.intro h4 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.intro p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.btn-sign-up {
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+    background: blue;
+    color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.box-info  img{
+    border-radius: 8px;
+}
+.box-info {
+    margin: 20px;
+}
+.main-content {
+    display:flex;
+    margin: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.main-content p{
+    text-align: center;
+    font-size: 36px;
+}
+.main h1 {
+    text-align: center;
+}
+
+.box-info p {
+    text-align: center;
+}
+
+.mid-content {
+    text-align: center;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.bottom-content button {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 10px;
+    text-align: center;
+}
